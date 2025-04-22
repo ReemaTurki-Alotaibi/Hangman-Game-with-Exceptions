@@ -1,35 +1,50 @@
-# Hangman Game - Python
+🎮 Hangman Game - Python
+📌 Overview
+A simple implementation of the classic Hangman game using Python.
+The game selects a random word from a predefined list, and the player must guess the word one letter at a time. You win if you guess the full word before running out of attempts.
 
-## **Overview**
+✨ Features
+🔤 Random Word Selection – Chooses a word from a predefined list.
 
-This is a simple implementation of the classic **Hangman** game in Python. The game randomly selects a word from a predefined list, and the player has to guess the word by suggesting letters one at a time. The player has a limited number of attempts to guess the correct word. If the player guesses all the letters correctly before running out of attempts, they win. Otherwise, they lose.
+🎮 Interactive Gameplay – Input letters via a simple UI or console.
 
-## **Features**
+✅ Input Validation – Accepts only valid single alphabetical characters.
 
-- **Random Word Selection**: The game selects a random word from a predefined list.
-- **Interactive Gameplay**: The player can input letters to guess the word.
-- **Input Validation**: The game ensures that the player enters a single valid letter (a-z, A-Z).
-- **Win/Lose Conditions**: The player wins if they guess all the letters in the word before running out of attempts. They lose if they exhaust all attempts.
-- **Play Again Option**: After winning or losing, the player can choose to play again or exit the game.
+🏆 Win/Lose Conditions – Win by guessing the full word, lose by running out of attempts.
 
-## **How to Play**
+🔁 Play Again Option – After a game ends, start a new one easily.
 
-1. The game starts with a hidden word, and you will be given a number of chances to guess the letters.
-2. Each time you guess a correct letter, it will be revealed in the word.
-3. If you run out of chances before guessing the entire word, you lose the game.
-4. The game will automatically end if you win or lose, with a message showing the result.
+▶️ How to Play
+The game starts with a hidden word (e.g., *****).
 
-## **Contributing**
+Guess one letter at a time.
 
-If you want to contribute to the game, you can modify the word list or add new features such as:
+Correct letters will be revealed in their positions.
 
-- **Add New Words**: Modify the word list in the code to suit your preferences.
-- **Add Difficulty Levels**: Adjust the number of allowed guesses based on the difficulty level.
-- **Add a Graphical User Interface**: Use libraries like `tkinter` to make the game more interactive.
+Incorrect guesses reduce your remaining attempts.
 
-## **Notes**
+The game ends when:
 
-- Make sure to input **one letter only** at a time.
-- If you repeat a letter guess, the game will notify you.
+✅ You guess all letters correctly (you win).
 
+❌ You run out of attempts (you lose).
 
+🛠️ Contributing
+Want to contribute or enhance the game? Here are some ideas:
+
+➕ Add New Words – Update the word_list with more diverse vocabulary.
+
+🔢 Add Difficulty Levels – Vary the number of allowed attempts.
+
+🖼️ Add GUI – Use libraries like tkinter, PyQt, or web frameworks.
+
+🧪 Unit Tests – Already included using unittest. You can expand them.
+
+📝 Notes
+Please input only one letter at a time.
+
+If you guess a letter more than once, you’ll be notified.
+
+This version is optimized for Google Colab (interactive UI with widgets).
+
+Make sure to run in a supported environment (e.g., Google Colab).
