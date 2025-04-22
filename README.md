@@ -1,9 +1,12 @@
-🎮 Hangman Game - Python
-📌 Overview
+**🎮 Hangman Game - Python**
+
+**📌 Overview**
+
 A simple implementation of the classic Hangman game using Python.
 The game selects a random word from a predefined list, and the player must guess the word one letter at a time. You win if you guess the full word before running out of attempts.
 
-✨ Features
+**✨ Features**
+
 🔤 Random Word Selection – Chooses a word from a predefined list.
 
 🎮 Interactive Gameplay – Input letters via a simple UI or console.
@@ -14,7 +17,8 @@ The game selects a random word from a predefined list, and the player must guess
 
 🔁 Play Again Option – After a game ends, start a new one easily.
 
-▶️ How to Play
+**▶️ How to Play**
+
 The game starts with a hidden word (e.g., *****).
 
 Guess one letter at a time.
@@ -29,7 +33,8 @@ The game ends when:
 
 ❌ You run out of attempts (you lose).
 
-🛠️ Contributing
+**🛠️ Contributing**
+
 Want to contribute or enhance the game? Here are some ideas:
 
 ➕ Add New Words – Update the word_list with more diverse vocabulary.
@@ -40,7 +45,8 @@ Want to contribute or enhance the game? Here are some ideas:
 
 🧪 Unit Tests – Already included using unittest. You can expand them.
 
-📝 Notes
+**📝 Notes**
+
 Please input only one letter at a time.
 
 If you guess a letter more than once, you’ll be notified.
